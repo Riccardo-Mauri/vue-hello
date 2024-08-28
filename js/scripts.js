@@ -3,8 +3,9 @@ const { createApp } = Vue;
 createApp({
     data() {
         return {
-            title: 'Hello World!',
-            style: 'h1style'
+            title: 'The King Cat',
+            style: 'h1style',
+            img: 'sua-maesta-gatto.jpg',
         }
     }
 }).mount('#app');
